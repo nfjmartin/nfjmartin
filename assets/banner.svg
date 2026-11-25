@@ -1,5 +1,62 @@
-<g transform="translate(764 51) scale(3.4)"
-   stroke="#39ff88"
-   fill="none"
-   stroke-width="1"
-   opacity="0.65">
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="800" height="220"
+     viewBox="0 0 800 220">
+
+  <defs>
+    <pattern id="grid" width="20" height="20"
+             patternUnits="userSpaceOnUse">
+      <path d="M20 0H0V20" fill="none"
+            stroke="#14242b" stroke-width="0.6"/>
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="220" fill="#090e14"/>
+  <rect width="800" height="220" fill="url(#grid)"/>
+
+  <!-- Corner decorations -->
+  <path d="M20 55V20H55 M745 20H780V55
+           M20 165V200H55 M745 200H780V165"
+        fill="none" stroke="#38bfa3" stroke-width="2"/>
+
+  <!-- System status -->
+  <circle cx="335" cy="50" r="4" fill="#38bfa3"/>
+
+  <text x="410" y="54" fill="#38bfa3"
+        font-family="monospace" font-size="12"
+        letter-spacing="3" text-anchor="middle">
+    SYSTEM ONLINE
+  </text>
+
+  <!-- Main title -->
+  <text x="400" y="123" fill="#e6edf3"
+        font-family="monospace" font-size="60"
+        font-weight="bold" letter-spacing="5"
+        text-anchor="middle">
+    MARTINLABS
+  </text>
+
+  <!-- Subtitle -->
+  <text x="400" y="163" fill="#8b949e"
+        font-family="monospace" font-size="13"
+        letter-spacing="3" text-anchor="middle">
+    SECURITY / SYSTEMS / DEVELOPMENT
+  </text>
+
+  <!-- Custom focus reticle -->
+  <g transform="translate(764 51) scale(3.4)"
+     stroke="#39ff88"
+     fill="none"
+     stroke-width="1"
+     opacity="0.65">
+
+    <circle r="22"/>
+    <circle r="15" stroke-dasharray="2 5" opacity="0.5"/>
+
+    <path d="M-29 0H-8 M8 0H29
+             M0 -29V-8 M0 8V29"/>
+
+    <circle r="2" fill="#39ff88" stroke="none"/>
+  </g>
+
+</svg>
