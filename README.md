@@ -1,20 +1,31 @@
-<h1 align="center">MartinLabs</h1>
-
 <p align="center">
-  IT Security Student | Sweden
+  <img src="./assets/banner.svg" alt="MartinLabs Banner" width="100%">
 </p>
 
----
+<p align="center">
+  IT Security Student • Sweden
+</p>
 
-## About Me
+## 01 / About me
 
-I'm an IT security student with a passion for cybersecurity, technology and hands-on projects.
+IT security student with an interest in cybersecurity,
+infrastructure and practical problem-solving.
 
-### Current Focus
+## 02 / Current focus
 
-- Cybersecurity
-- IT infrastructure
-- Personal projects
-- Continuous learning
+```text
+> Cybersecurity
+> IT Infrastructure
+> Development
+> Hands-on experimentation
+```
 
----
+## 03 / Projects
+
+- [MartinLabs](https://github.com/nfjmartin/martinlabs)
+- [MartinLabs Hub](https://github.com/nfjmartin/martinlabs-hub)
+- [Projects](https://github.com/nfjmartin/projects)
+
+## 04 / Tech stack
+
+Coming soon.
