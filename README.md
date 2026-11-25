@@ -19,7 +19,7 @@ infrastructure and practical problem-solving.
 > Development
 > Hands-on experimentation
 ```
-
+ 
 ## 03 / Projects
 
 - [MartinLabs](https://github.com/nfjmartin/martinlabs)
